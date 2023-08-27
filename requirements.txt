@@ -3,6 +3,5 @@ pandas
 numpy
 folium
 plotly==5.15.0
-folium.plugins
 dash_bootstrap_components
 scikit-learn
