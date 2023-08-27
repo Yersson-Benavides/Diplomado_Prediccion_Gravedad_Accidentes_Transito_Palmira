@@ -45,7 +45,7 @@ opciones_dia_semana = data_Frame['DIA_SEMANA'].unique()
 opciones_barrio_corregimiento_via = data_Frame['BARRIO-CORREGIMIENTO-VIA'].unique()
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server=app.server
 def generate_map(df20, df21, df22):
     feature_gp1 = folium.FeatureGroup(name="2020")
     feature_gp2 = folium.FeatureGroup(name="2021")
