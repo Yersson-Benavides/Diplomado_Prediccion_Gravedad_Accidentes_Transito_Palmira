@@ -5,3 +5,4 @@ folium
 plotly==5.15.0
 dash_bootstrap_components
 scikit-learn
+gunicorn
