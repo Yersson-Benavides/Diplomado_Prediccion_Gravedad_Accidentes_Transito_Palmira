@@ -1,0 +1,96 @@
+dbc.Navbar {
+    color: red;
+  }
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* .bg-light {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+} */
+
+.fondo.container-fluid {
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),url('/assets/fondo.jpg') !important;
+  /* opacity: rgba(0, 0, 0, 0.8) !important; */
+  --opacidad-negro: 0.4 !important;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .prueba {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+} */
+
+.NavbarFondo.navbar {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  padding-Top: 15px;
+  padding-Bottom: 15px;
+  padding-left: 50px;
+  color: blue;
+
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+/* .section {
+  --opacidad-negro: 0.5;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/fondo.jpg");
+} */
+
+.ml-2 {
+  margin-left: 50px;
+}
+
+.FondoTitulos {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  margin-top: 100px;
+}
+
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333333f1;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-icon-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+}
+
+.social-media-icon-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%; /* Añade esta propiedad */
+}
+
+.social-media-text {
+  font-size: 14px;
+  margin-left: 5px;
+  color: white;
+  margin-top: revert;
+}
+
+.p {
+  margin-top: inherit;
+}
