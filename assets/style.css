@@ -53,6 +53,11 @@ dbc.Navbar {
   margin-top: 100px;
 }
 
+.ButtonPredict {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 /* Estilos para el footer */
 .footer {
