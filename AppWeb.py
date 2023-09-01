@@ -157,8 +157,8 @@ app.layout = html.Div(
         dbc.Row(
             dbc.Col(
                 [
-                    dcc.Markdown('# Análisis de accidentes de tránsito'),
-                    dcc.Markdown('#### En esta página encontrarás un análisis de los accidentes de tránsito ocurridos en los años 2020, 2021 y 2022, así como la predicción de la gravedad de los mismos de acuerdo a variables como el Barrio, la Jornada, y el Día de la Semana donde ocurrirá el accidente.', style={'marginTop':'50px'})
+                    dcc.Markdown('# APLICACIÓN DE LA CIENCIA DE DATOS EN EL DESARROLLO DE UN PRODUCTO DE DATOS, PARA LA ESTIMACIÓN DE LA GRAVEDAD DE UN ACCIDENTE DE TRANSITO POR BARRIO, JORNADA Y DÍA QUE PERMITA MEJORAR LA TOMA DE DECISIONES EN RELACIÓN CON LAS ESTRATEGIAS DE PREVENCIÓN DENTRO DEL MUNICIPIO DE PALMIRA'),
+                    dcc.Markdown('##### En este aplicativo web, se presenta un detallado análisis de los incidentes de tráfico registrados en los años 2020, 2021 y 2022. Además, se ofrece la posibilidad de realizar predicciones sobre la gravedad de estos incidentes, tomando en consideración variables cruciales como el lugar (barrio), la franja horaria (jornada) y el día de la semana en que tuvo lugar el accidente. Este enfoque analítico brinda una visión integral de los patrones y tendencias asociados a los accidentes de tránsito, al tiempo que permite anticipar la severidad de los mismos en función de variables clave.', style={'marginTop':'50px'})
                 ],
                 className= 'FondoTitulos'
                 
